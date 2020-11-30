@@ -12,11 +12,11 @@
 
 
 
-<?php foreach($tab as $produit) : ?> <!-- Ma condition pour chaque produit du tableau --> 
+<?php foreach($tab as $indice => $produit) : ?> <!-- Ma condition pour chaque produit du tableau --> 
 
     <article>
         <div>
-            <img src="img/<?=$produit["image"]?>" alt="">
+            <a href="index.php?page=pageproduit&art=<?=$indice?>"><img src="img/<?=$produit["image"]?>" alt=""></a>
             <h3><?=$produit["titre"]?></h3>
             <p><?=$produit["Prix"]?></p>
             <p>Quantité en stock : <?=$produit["Quantité"]?></p>

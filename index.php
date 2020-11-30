@@ -8,7 +8,7 @@
             break;
             case "pageproduit" : $pageAInclure = "page_produit.php";
             break;
-            default : $pageAInclure = "page_accueil.php";
+            default : $pageAInclure = "page_accueil.php"; // Par défault la page accueil s'ouvrira
 
         } 
 
@@ -31,7 +31,7 @@
     
     <ul>
         <li><a href="index.php?page=pageaccueil">Accueil</a></li>
-        <li><a href="index.php?page=pageproduit">Riz</a></li>
+        <li><a href="index.php?page=pageproduit">Produit</a></li>
     </ul>
 
 
