@@ -21,6 +21,7 @@
             <p><?=$produit["Prix"]?></p>
             <p>Quantité en stock : <?=$produit["Quantité"]?></p>
             <p><?=$produit["Description"]?></p>
+            <button>Ajouter au panier</button>
         </div>
     </article>  
 
