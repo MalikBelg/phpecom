@@ -8,6 +8,10 @@
             break;
             case "pageproduit" : $pageAInclure = "page_produit.php";
             break;
+            case "pageconnecter" : $pageAInclure = "page_seconnecter.php";
+            break;
+            case "pagepanier" : $pageAInclure = "page_panier.php";
+            break;
             default : $pageAInclure = "page_accueil.php"; // Par défault la page accueil s'ouvrira
 
         } 
@@ -24,7 +28,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ma boutique</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,6 +36,8 @@
     <ul>
         <li><a href="index.php?page=pageaccueil">Accueil</a></li>
         <li><a href="index.php?page=pageproduit">Produit</a></li>
+        <li><a href="index.php?page=pageconnecter">Se connecter</a></li>
+        <li><a href="index.php?page=pagepanier">Mon Panier</a></li>
     </ul>
 
 
